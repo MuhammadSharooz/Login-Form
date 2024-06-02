@@ -198,9 +198,9 @@ h1{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     .login-box{
-        width: 300px;
+        width: 400px;
         height: 400px;
     }
     h1{
@@ -236,6 +236,25 @@ h1{
     .user-profile{
         width: 320px;
         height: 490px;
+    }
+    .user-profile-info{
+       align-items: start;
+
+    }
+
+}
+@media only screen and (max-width: 360px) {
+    .login-box{
+        width: 320px;
+        height: 410px;
+    }
+    h1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .user-profile{
+        width: 320px;
+        height: 450px;
     }
     .user-profile-info{
        align-items: start;
