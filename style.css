@@ -233,4 +233,13 @@ h1{
     .Sign-Up{
         display: none;
     }
+    .user-profile{
+        width: 320px;
+        height: 490px;
+    }
+    .user-profile-info{
+       align-items: start;
+
+    }
+
 }
