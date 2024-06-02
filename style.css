@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url(https://vendotic.com/public/uploads/large/1391700416554lvh00qxahdtczrfdwomvf6ab6ulzgpoex9hlyhqpxlddorpf1anzwverazr2d0xwb0yj335zma1mgifjzbtbj8klyetjvwbolmlw.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+     background-size:cover;
+}
+.conatiner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1{
+    color: #fff;
+   margin-top: 2rem;
+   margin-bottom: 4rem;
+}
+.login-box{
+    width: 400px;
+    height: 450px;
+    background-color: #ffffff3e;
+    box-shadow: 0px 0px 10px #2304ab;
+    backdrop-filter: blur(3px 4px 2px 8px);
+    opacity: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.textbox input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid rgba(27, 27, 27, 0.795);
+    color: #dcdcdc;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: .2rem;
+}
+.submit{
+    width: 300px;
+    height: 50px;
+    border-radius: 23px;
+    border: none;
+    outline: none;
+    background-color: #3c35ff;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 1.6rem;
+}.textbox i{
+    position: absolute;
+    font-size: 20px;
+    color: #1506e9;
+    z-index: 1;
+    left: 20rem;
+    top: 1rem;
+
+}
+.submit:hover{
+    background-color: #000000;
+    color: #04a8ef;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px #3004f3 ;
+    border: 1px solid #16dcaa;
+}
+.rememberbox{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+.singUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+}
+.singUp span{
+       color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.singUp span:hover{
+    color: #04a8ef;
+    transition: 0.5s;
+    text-shadow: 0px 0px 10px #2304ab;
+    cursor: pointer;
+ 
+}
+
+.forgot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .6rem;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.textbox2{
+    margin-top: 3rem;
+}
+.forgot a:hover{
+    color: #04a8ef;
+    transition: 0.5s;
+    text-shadow: 0px 0px 10px #2304ab;    
+}
+.Sign-Up{
+    display: none;
+}
+.login{
+    display:flex;
+}
+
+/* user-profile */
+.user-profile{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    background-color: #ffffff3e;
+    box-shadow: 0px 0px 10px #2304ab;
+    backdrop-filter: blur(3px 4px 2px 8px);
+    opacity: 1;
+    border-radius: 10px;
+    width: 400px;
+    height: 450px;
+
+}
+.user{
+    margin-bottom: 3px;
+    margin-top: 0px;
+
+}
+.user-profile img{
+    border-radius: 50%;
+    margin-bottom: .4rem;
+
+
+}
+
+.user-profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.user-profile-info  span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #b2d80b;
+}
+.verified{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+#logout{
+    height: 50px;
+    width: 240px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .login-box{
+        width: 300px;
+        height: 350px;
+    }
+    .textbox input{
+        width: 250px;
+    }
+    .textbox i{
+        left: 15rem;
+    }
+    .submit{
+        width: 250px;
+        margin-left: 1rem;
+    }
+    .rememberbox{
+        display: block;
+    }
+    .singUp{
+        display:flex;
+    }
+    .forgot{
+        display:flex;
+    }
+    .Sign-Up{
+        display: none;
+    }
+}
