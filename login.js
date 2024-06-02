@@ -5,10 +5,6 @@ let password=document.querySelector('#password')
 let Username=document.querySelector('#Username')
 let loginbtn=document.querySelector('#logIn')
 let rememberpassword=document.querySelector('#remember')
-
-
-
-
 let userEmail=document.querySelector('#userEmail')
 
 

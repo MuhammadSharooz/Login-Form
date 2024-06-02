@@ -201,10 +201,15 @@ h1{
 @media only screen and (max-width: 600px) {
     .login-box{
         width: 300px;
-        height: 350px;
+        height: 400px;
+    }
+    h1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     .textbox input{
         width: 250px;
+        margin-top: 0px;
     }
     .textbox i{
         left: 15rem;
@@ -214,7 +219,10 @@ h1{
         margin-left: 1rem;
     }
     .rememberbox{
-        display: block;
+        display: flex;
+        margin-top: 0px;
+        gap: 2px;
+        flex-direction: column;
     }
     .singUp{
         display:flex;
